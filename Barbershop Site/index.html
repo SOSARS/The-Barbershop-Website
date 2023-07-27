@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The BarberShop</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img class="main-logo-img" src="Images/barbershop-logo.png" alt="Logo" height="100" width="100"/>
+      <!-- Navigation Bar -->
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="about-us.html">About Us</a></li>
+        <li><a class="main-nav-link" href="how-it-works.html">How It Works</a></li>
+        <li><a class="main-nav-link" href="faqs.html">FAQs</a></li>
+        <li><a class="main-nav-link" href="pricing.html">Pricing</a></li>
+        <li><a class="main-nav-link" href="stats.html">Statistics</a></li>
+        <li><a href="#" class="btn-submit btn-cta">Book now</a></li>
+      </ul>
+    </nav>
+    </header>
+
+
+    <div class="container">
+      <!-- Landing Section -->
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 id="hero-main-text">
+              Connecting you to the best barbers in your area, on demand
+            </h1>
+            <p class="hero-description">The convenient way to get the best grooming services available. 
+              Connecting the best barbers around to you. All at a click of a button. <br>
+             <span id="hero-span-text">140 000+ services delivered in 2023.</span>
+            </p>
+            <br>
+            <a href="#" class="hero-btn btn-submit">Get cut now</a> <a href="how-it-works.html" class="btn-learn-more">Learn more &rarr;</a>
+            <br>
+            <br>
+            <br>
+            <p class="mobile-icons">
+              Available on mobile:
+              <br>
+              <br>
+              <a href="" class="mobile-icon apple-icon"><ion-icon name="logo-apple"></ion-icon></a>
+               <a href="" class="mobile-icon"><ion-icon name="logo-android"></ion-icon></a>
+               <a href="" class="mobile-icon"><ion-icon name="logo-windows"></ion-icon></a>
+            </p>
+          </div> 
+
+          <div class="hero-img-box">
+            <img
+              src="Images/hero-main.jpg"
+              alt="Haircut being delivered"
+              class="hero-img"
+  
+            />
+          </div>
+      </div>
+      </section>
+
+<!-- Carousel section -->
+      <section class="work-gallery">
+        <div class="gallery-heading">
+        <h2 class="offering-heading">&mdash; Browse through our gallery &mdash;</h2>
+        </div>
+
+        <div class="image-gallery">
+          <div class="gallery-item">
+              <img src="Images/gallery-img-1.jpg" alt="" height="300" width="300">
+          </div>
+          <div class="gallery-item">
+              <img src="Images/gallery-img-5.jpg" alt="" height="300" width="300">
+          </div>
+          <div class="gallery-item">
+            <img src="Images/gallery-img-4.jpg" alt="" height="300" width="300">
+          </div>
+          <div class="gallery-item">
+            <img src="Images/gallery-img-2.jpg" alt="" height="300" width="300">
+          </div>
+        </div>
+
+        <div>
+          <h3 id="see-more-text">Like what you see? <a href="" id="see-more-link">See more <ion-icon class="arrow-icon" name="arrow-forward-sharp"></ion-icon></a></h3>
+        </div>
+      </section>
+
+
+      <section>
+        <h2 class="offering-heading">&mdash; What we offer &mdash;</h2>
+        <div class="grid-3-cols">
+          <div>
+            <p>
+              <ion-icon class="icon" name="home-sharp"></ion-icon>
+              <p class="feature-title">We come to you</p>
+            </p>
+            <p class="feature-text">
+              No more waiting in line or driving to the salon. Book a barber
+              anytime, anywhere with our easy-to-use app. Choose the barber you
+              like, at the time you want, and receive the style you desire.
+               We'll bring the salon to you.
+            </p>
+          </div>
+          <div>
+        
+            <p>
+              <ion-icon class="icon" name="alarm-sharp"></ion-icon>
+              <p class="feature-title">Schedule when you're available</p>
+            </p>
+            <p class="feature-text">
+              Enjoy a personalised and professional grooming service in the
+              comfort of your own home. Our barbers are trained, licensed, and
+              vetted. They bring all the necessary equipment and follow strict
+              hygiene protocols. You just sit back and relax.
+            </p>
+          </div>
+          <div>
+  
+            <p>
+              <ion-icon class="icon" name="logo-bitcoin"></ion-icon>
+              <p class="feature-title">Flexible payment methods</p>
+            </p>
+            <p class="feature-text">
+              Pay securely and hassle-free with our app. You can use your credit
+              card, debit card, bitcoin, or mobile wallet. You can also tip your barber
+              with a tap. No cash, no hassle, no worries.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section class="testimonial-section">
+        <!-- width: 564 height: 705 -->
+        <div class="grid-3-cols">
+          <img
+            id="testimonial-img"
+            src="Images/testimonial-img.jpg"
+            alt="Happy man with a fresh cut"
+            width="282"
+            height="352.5"
+          />
+
+          <div class="testimonial-content">
+            <h2>"Best decision of my life!"</h2>
+            <blockquote class="testimonial-text">
+              I don't know how I survived so long without this app. I never have
+              to worry about trading hours, blocking out a Saturday morning, or
+              rushing during lunchtime to get a cut. Now, I get cut on
+              <strong>my</strong> time, <strong>when</strong> I want,
+              <strong>where</strong>
+              I want. I used to dream of times like this.
+            </blockquote>
+            <p class="testimonial-author">&mdash; Jake Nashville</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Barber Cards Section -->
+      <section class="barber-cards">
+        <h2 class="offering-heading"> &mdash; Meet our finest &mdash;</h2>
+        <div class="grid-3-cols">
+
+          <!-- Barber Card: Jackson -->
+          <figure class="barber-card">
+            <img src="Images/barber-card-1.jpg" alt="Barber image" height="350" width="350" />
+            <div class="barber-box">
+              <h3 class="barber-name">Jackson Fouche</h3>
+              <ul class="barber-details">
+                <li><span>Standard haircuts</span></li>
+                <li><span>Faux hawks</span></li>
+                <li><span>Braiding</span></li>
+                <li><span>Hair fading</span></li>
+                <li><span>Comb-overs</span></li>
+              </ul>
+            </div>
+            <div class="barber-rates">
+              <p class="reviews">4.84 <ion-icon name="star-sharp"></ion-icon> (1723)</p>
+              <strong class="app-price">From R599.99</strong>
+              <button class="btn-schedule btn-jackson">Schedule Appointment</button>
+            </div>
+          </figure>
+
+          <!-- Barber Card: Michael -->
+          <figure class="barber-card">
+            <img src="Images/barber-card-2.jpg" alt="Barber image" height="350" width="350" />
+            <div class="barber-box">
+              <h3 class="barber-name">Michael Sartorial</h3>
+              <ul class="barber-details">
+                <li><span>Beard trimming</span></li>
+                <li><span>Shaving</span></li>
+                <li><span>Crew cut</span></li>
+                <li><span>Pompadour</span></li>
+                <li><span>Neck shave and cleanup</span></li>
+              </ul>
+            </div>
+            <div class="barber-rates">
+              <p class="reviews">4.92 <ion-icon name="star-sharp"></ion-icon> (2881)</p>
+              <strong class="app-price">From R799.99</strong>
+              <button class="btn-schedule btn-michael">Schedule Appointment</button>
+            </div>
+          </figure>
+
+          <!-- Barber Card: James -->
+          <figure class="barber-card">
+            <img src="Images/barber-card-3.jpg" alt="Barber image" height="350" width="350"/>
+            <div class="barber-box">
+              <h3 class="barber-name">James Kerran</h3>
+              <ul class="barber-details">
+                <li><span>Razor-lineup</span></li>
+                <li><span>Scalp massage</span></li>
+                <li><span>Mustache grooming</span></li>
+                <li><span>Hairline restoration</span></li>
+                <li><span>Hair loss advice and solutions</span></li>
+              </ul>
+            </div>
+
+            <div class="barber-rates">
+              <p class="reviews">4.96 <ion-icon name="star-sharp"></ion-icon> (3248)</p> 
+             <strong class="app-price">From R899.99</strong>
+    
+              <button class="btn-schedule btn-james">Schedule Appointment</button>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Barber Carousel -->
+      <section class="barber-team">
+
+        <div class="carousel">
+          <img id="carousel-img" src="Images/barber1.jpg" alt="A random barber" />
+          <blockquote class="testimonial">
+            <p class="testimonial-text">
+              There is nothing to worry about once you land in my seat. I have spent more than a decade perfecting my craft, 
+              and developing a style that will suit you. Trust me to deliver the best cut of your life.
+            </p>
+            <p class="testimonial-author">Jason Reid</p>
+            <p class="testimonial-job">1682 Cuts Delivered</p>
+          </blockquote>
+          <button class="btn btn-left">
+            <ion-icon class="btn-icon" name="chevron-back-sharp"></ion-icon>
+          </button>
+          <button class="btn btn-right">
+            <ion-icon class="btn-icon" name="chevron-forward-sharp"></ion-icon>
+          </button>
+
+          <div class="dots">
+            <button class="dot dot-1">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Form -->
+      <section>
+        <div class="contact-form">
+          <div class="form-header"></div>
+          <h2 id="form-main-text">Talk to Us.</h2>
+          <h4 id="form-head-text">We want to hear from you <ion-icon id="happy-icon" name="happy-outline"></ion-icon></h4>
+          
+          <p id="form-description">
+            Feel free to reach out to us. Our team is prepared to assist you
+            with any queries or issues you may be experiencing. <br> We're here for
+            you, and we're <strong>serious</strong> about making your life
+            easier.
+          </p>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cell-number">Cell Number</label>
+                <input type="tel" id="cell-number" name="cell-number" placeholder="Enter your cell number" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Describe your problem. We'll keep everything between us 😉" required></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <button class="btn-submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Page Footer -->
+   <div class="footer-container">
+
+    <footer>
+      <div class="socials-container">
+
+        <div class="info">
+          <p>Enjoy the content we put out at these links</p>
+        </div>
+
+        <div class="social-links-container">
+          <ul class="social-icons">
+            <li class="social-icon"><a target="_blank" href="https://instagram.com/thebarbershop_v1?igshid=MWQ1ZGUxMzBkMA=="><ion-icon id="insta-icon" name="logo-instagram"></ion-icon></a></li>
+            <li class="social-icon"><a target="_blank" href="https://web.facebook.com/profile.php?id=100092692223942"><ion-icon id="facebook-icon" name="logo-facebook"></ion-icon></a></li>
+            <li class="social-icon"><a target="_blank" href="https://twitter.com/TheBarberShopV1"><ion-icon id="twitter-icon" name="logo-twitter"></ion-icon></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-row">
+
+      <div class="footer-cols col-1">
+        <h4 id="about-heading">ABOUT</h4>
+        <p>Founded by Shameel Ashmodien, The Barbershop &copy; 2023 <br> 
+         to service barbers, and provide access to customers. <br>
+          The enterprise's goal is to alleviate poverty, encourage entrepreneurship, <br> and provide convenient access.
+          <br>
+          To barbers, for customers.
+        </p>
+      </div>
+      <div class="footer-cols col-2">
+        <h4>USEFUL LINKS</h4>
+        <ul class="footer-links">
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="how-it-works.html">FAQs</a></li>
+          <li><a href="stats.html">Statistics</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-cols col-3">
+        <h4>ADDITIONAL SERVICES</h4>
+        <ul class="footer-links">
+          <li>Automated Services</li>
+          <li>Equipment Servicing</li>
+          <li>Business Advice & Solutions</li>
+          <li>Brand Development</li>
+          <li>Data Analytics & Solutions</li>
+        </ul>
+      </div>
+      <div class="footer-cols col-4">
+        <form>
+          <div id="footer-form-header">
+          <h4>Join our newsletter</h4>
+          <p>We'll keep you updated on our developments. <br>
+            Don't miss out - it's free!</p>
+          </div>
+          <div id="newsletter-container">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input 
+              id="newsletter1" 
+              type="text" 
+              class="form-control" 
+              placeholder="We won't spam you. Promise 😊">
+            <br>
+            <br>
+            <button class="btn-footer" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      </div>
+    </footer>
+   </div>
+
+
+    <!-- Icon script modules -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,583 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Logo styling */
+.main-logo-img {
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+/* ############ */
+
+body {
+  background-color: #e9ecef;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: -0.5px;
+  margin-bottom: 60px;
+}
+
+header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+blockquote {
+  margin-bottom: 24px;
+}
+
+/* Navigation Bar Styling */
+.main-nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+  font-weight: 500;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: orange;
+}
+
+/* ####################### */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#hero-main-text {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.8;
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  font-size: 20px;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+#hero-span-text {
+  color: orange;
+}
+
+.hero-btn {
+  margin-right: 10px;
+  width: 150px;
+}
+
+.btn-learn-more:link,
+.btn-learn-more:visited {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: #343a40;
+  transition: all 0.4s;
+}
+
+.btn-learn-more:hover,
+.btn-learn-more:active {
+  background-color: orange;
+  color: white;
+}
+
+.mobile-icon:link,
+.mobile-icon:visited {
+  font-size: 50px;
+  color: #343a40;
+  margin-left: 20px;
+}
+
+.mobile-icon:hover,
+.mobile-icon:active {
+  color: orange;
+  transition: all 0.4s;
+}
+
+.apple-icon:link,
+.apple-icon:visited {
+  margin-left: 0;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.work-gallery {
+  border-radius: 12px;
+}
+
+.image-gallery {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#see-more-text {
+  margin-left: 15px;
+}
+
+#see-more-link {
+  text-decoration: underline;
+}
+
+#see-more-link:hover {
+  color: orange;
+}
+
+.arrow-icon {
+  font-size: 15px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.offering-heading {
+  text-align: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.feature-title {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.feature-text {
+  color: grey;
+}
+
+.testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+}
+
+.testimonial-content {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-content h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.testimonial-author {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#testimonial-img {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+/* Barber card styling */
+.barber-card {
+  border-radius: 12px;
+  box-shadow: 5px 8px 20px 0 grey;
+  background-color: #f4f4f4;
+}
+
+.barber-card img {
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.barber-box {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.barber-name {
+  font-size: 24px;
+  margin-bottom: 24px;
+  margin-left: 10px;
+}
+
+.barber-box li {
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+
+.barber-rates {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 5px;
+}
+
+.app-price {
+  margin-left: 10px;
+}
+
+.btn-schedule {
+  display: inline-block;
+  margin-left: 0;
+  background-color: #dee2e6;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-schedule:hover {
+  background-color: orange;
+  color: white;
+}
+
+.btn-michael {
+  background-color: orange;
+  color: white;
+}
+
+.btn-michael:hover {
+  background-color: #f76707;
+}
+
+.reviews {
+  color: #adb5bd;
+  margin-left: 10px;
+}
+
+/* ########################### */
+
+/* Testimonial carousel styling */
+#carousel-img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.65);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+
+  background-color: orange;
+  border-radius: 8px;
+  padding: 32px 48px 32px 86px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.testimonial-author {
+  font-size: 14px;
+}
+
+.testimonial-job {
+  font-size: 12px;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  color: orange;
+}
+
+.btn-left {
+  left: 0;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot-1 {
+  background-color: orange;
+}
+
+/* ############################ */
+
+/* Form styling */
+#form-main-text {
+  margin-bottom: 3px;
+}
+
+#form-head-text {
+  margin-bottom: 16px;
+  color: grey;
+}
+
+#happy-icon {
+  width: 12px;
+  height: 12px;
+  color: orange;
+}
+
+#form-description {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #999;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+  background-color: #f76707;
+  transition: all 0.4s;
+}
+
+/* ############################ */
+
+/* Footer styling */
+.footer-container {
+  padding: 12px 48px 48px 48px;
+  color: white;
+  background-color: black;
+}
+
+.socials-container {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.social-links-container {
+  width: 100%;
+}
+
+.social-links-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links-container ul li a {
+  display: inline-block;
+  margin: 0 190px;
+  font-size: 30px;
+}
+
+#insta-icon {
+  color: #e4405f;
+}
+
+#facebook-icon {
+  color: #1877f2;
+}
+
+#twitter-icon {
+  color: #1da1f2;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+  row-gap: 12px;
+  padding: 8px;
+}
+
+.col-1 {
+  row-gap: 32px;
+}
+
+.col-2 {
+  row-gap: 20px;
+}
+
+.col-3 {
+  row-gap: 16px;
+}
+
+footer h4 {
+  margin-bottom: 12px;
+}
+
+footer {
+  font-size: 15px;
+  color: #ced4da;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-links a:hover {
+  color: orange;
+}
+
+#footer-form-header {
+  margin-bottom: 18px;
+}
+
+#about-heading {
+  margin-bottom: 0;
+}
+
+.btn-footer {
+  background-color: #ffd8a8;
+  display: block;
+  width: 100%;
+  height: 32px;
+  border: 0;
+  border-radius: 6px;
+  color: #f76707;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-footer:hover {
+  background-color: #f76707;
+  color: white;
+}

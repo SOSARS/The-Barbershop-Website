@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  background-color: #e9ecef;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px;
+}
+
+.main-logo-img {
+  border-radius: 50%;
+}
+
+/* Nagivation bar styling */
+.main-nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+  font-weight: 500;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: orange;
+}
+
+.btn-submit:link,
+.btn-submit:visited {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+  background-color: #f76707;
+  transition: all 0.4s;
+}
+
+/* ############################ */
+
+.main-container {
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  width: 800px;
+  padding: 120px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.main-heading {
+  margin-bottom: 96px;
+  color: #495057;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  row-gap: 300px;
+}
+
+.step-number {
+  color: #adb5bd;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.step-heading {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-description {
+  color: #495057;
+  line-height: 1.5;
+}
