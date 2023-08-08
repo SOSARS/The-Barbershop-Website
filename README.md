@@ -26,7 +26,7 @@ Pay securely and hassle-free with our app. You can use your credit card, debit c
 
 ## Video Walkthrough
 
-*link will be added here soon*
+https://drive.google.com/file/d/1PjVc9RFBDvmFwz1FMy3HX8MDypnhMx4n/view?usp=drive_link
 
 
 ## Technology Stack Used
